@@ -1,1 +1,95 @@
+En caso que = //(switch) <Maquina de don Pepe> 
+leer categorias
+int x = convertir a int 32 leer;
+if ( x> 0 && < 5) 
+caso "1-bebidas":
+leer  1 coca cola = 3.50  2 pepsi = 3.00  3 cifrut: 2.00 , 4 agua san luis = 5:00 , 5 agua san mateo = 3.50;
+leer ingrese el numero de seleccion;
+int y = convertir a int 32 leer;
+if( y >0 && x < 6)
 
+switch (y)
+caso 1 
+leer P.E total a pagar 3.50 soles
+caso 2 
+leer P.E total a pagar 3 soles
+case 3;
+leer P.E total a pagar 2 soles
+case 4;
+leer  P.E total a pagar 5 soles
+case 5;
+leer  P.E total a pagar 3.50 soles
+default:
+leer eleccion no valida intente denuevo.
+romper
+
+
+romper;
+
+caso "2-snacks":
+leer 1 piqueo = 2.50, 2 papas lays = 3.00 , 3 cheese trees = 10.00 , 4 cheetos = 1.00, 5 chifles = 1.50; 
+int z = convertir a int 32 leer;
+if( z >0 && x < 6)
+switch (z)
+leer P.E total a pagar 2.50 soles
+caso 2 
+leer P.E total a pagar 3 soles
+case 3;
+leer P.E total a pagar 10 soles
+case 4;
+leer  P.E total a pagar 1 sol
+case 5;
+leer  P.E total a pagar 1.50 soles
+default:
+leer eleccion no valida intente denuevo.
+romper
+
+romper;
+caso "3-dulces":
+int w = convertir a int 32 leer;
+if( w >0 && x < 6)
+switch (w)
+
+leer 1 gomitas = 1.00, 2 chupetin = 1.50, 3 chicle = 5.00, 4 papaleta = 3.00 , 5 full = 1.00;
+leer P.E total a pagar 1 sol
+caso 2 
+leer P.E total a pagar 1.5 soles
+case 3;
+leer P.E total a pagar 5 soles
+case 4;
+leer  P.E total a pagar 3 soles
+case 5;
+leer  P.E total a pagar 1 sol
+default:
+leer eleccion no valida intente denuevo.
+romper
+
+romper;
+
+caso "4-galletas":
+leer 1 rellenita = 1.00 , 2 Morochas = 2.50 , 3 picaras = 3.00 , 4 soda = 1.00, 5 casino = 3.00;
+int S = convertir a int 32 leer;
+if( S >0 && x < 6)
+switch (S)
+
+leer P.E total a pagar 1 sol
+caso 2 
+leer P.E total a pagar 2.50 soles
+case 3;
+leer P.E total a pagar 3 soles
+case 4;
+leer  P.E total a pagar 1 sol
+case 5;
+leer  P.E total a pagar 3 soles
+default:
+leer eleccion no valida intente denuevo.
+romper
+
+
+romper; 
+
+default:
+leer  No ingreso un numero valido;
+break;
+
+fin del caso 
